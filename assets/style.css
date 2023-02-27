@@ -1,0 +1,18 @@
+body
+
+/*what does this do?*/
+.container {
+    display: flex;
+}
+
+
+/*this makes the footer go to the bottomish but I feel like I can do better than this. come back to it later*/
+.allbutfooter {
+    min-height: calc(100vh - 40px);
+}
+
+/*make the footer look better. Give it a background box and make it stick to the bottom of the page*/
+footer {
+    display: flex;
+    justify-content: center;
+}
